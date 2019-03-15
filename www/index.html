@@ -7,8 +7,8 @@
   <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
 
   <script src="components/loader.js"></script>
-  <script src="lib/onsenui/js/onsenui.min.js"></script>
   <script src="jquery-3.3.1.min.js"></script>
+  <script src="components/acao.js"></script>
 
   <link rel="stylesheet" href="components/loader.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -30,7 +30,7 @@
       </div>
       <div class="col-xs-9">
         <div class="form-group">
-          <input type="number" class="form-control">
+          <input type="number" class="form-control" id="peso">
         </div>
       </div>
     </div>
@@ -41,7 +41,7 @@
       </div>
       <div class="col-xs-9">
         <div class="form-group">
-          <input type="number" class="form-control">
+          <input type="number" class="form-control" id="altura">
         </div>
       </div>
     </div>
@@ -52,7 +52,7 @@
       </div>
       <div class="col-xs-9">
         <div class="form-group">
-          <input type="number" class="form-control">
+          <input type="number" class="form-control" id="idade">
         </div>
       </div>
     </div>
@@ -65,7 +65,7 @@
     <div class="row">
       <div class="col-xs-12">
         <label class="masc">
-          <input type="radio" name="genero" value="masculino" > masculino
+          <input type="radio" name="genero" value="masculino" id="sexo"> masculino
         </label><br>
         <label class="fem">
           <input type="radio" name="genero" value="feminino" > feminino
@@ -83,11 +83,11 @@
         <div class="form-group">
           <select>
             <option value="...">...</option>
-            <option value="sedentário">sedentário</option>
-            <option value="levemente">levemente ativo</option>
-            <option value="moderadamente">moderadamente ativo</option>
-            <option value="altamente">altamente ativo</option>
-            <option value="extremamente">extremamente ativo</option>
+            <option value="sedentário" id="sedentario">sedentário</option>
+            <option value="levemente" id="levemente">levemente ativo</option>
+            <option value="moderadamente" id="moderadamente">moderadamente ativo</option>
+            <option value="altamente" id="altamente">altamente ativo</option>
+            <option value="extremamente" id="extremamente">extremamente ativo</option>
           </select>
         </div>
       </div>
@@ -95,7 +95,7 @@
     <br>
     <div class="row">
       <div class="col-xs-12">
-          <button class="btn">calcular</button>
+          <button class="btn" id="calcular">calcular</button>
       </div>
     </div>
     <br>
