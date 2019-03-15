@@ -7,7 +7,7 @@
   <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
 
   <script src="components/loader.js"></script>
-  <script src="jquery-3.3.1.min.js"></script>
+  <script src="components/jquery-3.3.1.min.js"></script>
   <script src="components/acao.js"></script>
 
   <link rel="stylesheet" href="components/loader.css">
@@ -26,22 +26,22 @@
 
     <div class="row">
       <div class="col-xs-3">
-        <label>Peso: </label>
+        <label>Altura: </label>
       </div>
       <div class="col-xs-9">
         <div class="form-group">
-          <input type="number" class="form-control" id="peso">
+          <input type="number" class="form-control" id="altura">
         </div>
       </div>
     </div>
 
     <div class="row">
       <div class="col-xs-3">
-        <label>altura: </label>
+        <label>Peso: </label>
       </div>
       <div class="col-xs-9">
         <div class="form-group">
-          <input type="number" class="form-control" id="altura">
+          <input type="number" class="form-control" id="peso">
         </div>
       </div>
     </div>
@@ -65,10 +65,10 @@
     <div class="row">
       <div class="col-xs-12">
         <label class="masc">
-          <input type="radio" name="genero" value="masculino" id="sexo"> masculino
+          <input type="radio" name="genero" value="masculino" id="sexo1"> masculino
         </label><br>
         <label class="fem">
-          <input type="radio" name="genero" value="feminino" > feminino
+          <input type="radio" name="genero" value="feminino" id="sexo2"> feminino
         </label><br>
       </div>
     </div>
@@ -105,7 +105,7 @@
       </div>
       <div class="col-xs-9">
         <div class="form-group">
-          <input type="text" class="form-control result">
+          <input type="text" class="form-control" id="resultado">
         </div>
       </div>
     </div>
