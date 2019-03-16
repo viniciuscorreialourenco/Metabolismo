@@ -3,17 +3,22 @@ label{
   margin-top: 6px;
   font-weight: bold;
   font-size: 17px;
+  margin-bottom: 4px;
 }
 input{
   margin-left: -30px;
+  font-weight: bold;
 }
 input#resultado{
   margin-left: -2px;
+  font-weight: bold;
+  width: 90%;
 }
 button{
   margin-left: 40%;
   background-color: lightseagreen;
   color: white;
+  margin-top: -17px; 
 }
 .titulo{
   text-align: center;
@@ -32,4 +37,10 @@ body{
 }
 select{
   padding: 5px;
+}
+.masc{
+  margin-bottom: 6px;
+}
+select{
+  background-color: white;
 }
