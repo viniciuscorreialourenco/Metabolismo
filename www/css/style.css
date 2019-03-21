@@ -15,10 +15,12 @@ input#resultado{
   width: 90%;
 }
 button{
-  margin-left: 40%;
+  margin-left: 34%;
   background-color: lightseagreen;
   color: white;
   margin-top: -17px; 
+  width: 30%;
+  height: 40px;
 }
 .titulo{
   text-align: center;
@@ -43,4 +45,12 @@ select{
 }
 select{
   background-color: white;
+}
+.consideracao{
+   width: 100%;
+}
+.textobtn{
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
 }
