@@ -9,7 +9,10 @@
   <script src="components/loader.js"></script>
   <script src="components/jquery-3.3.1.min.js"></script>
   <script src="components/acao.js"></script>
+  <script src="https://unpkg.com/onsenui/js/onsenui.min.js"></script>
 
+  <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsenui.css">
+  <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsen-css-components.min.css">
   <link rel="stylesheet" href="components/loader.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
@@ -17,13 +20,16 @@
 </head>
 <body>
   <div class="container">
-
-    <div class="row titulo">
-      <div class="col-xs-12">
+   <div class="row titulo"> 
+      <div class="col-xs-2 toggle-btn" onclick="toggleSidebar()">
+          <div class="menu"></div>
+          <div class="menu"></div>
+          <div class="menu"></div>
+      </div>   
+      <div class="col-xs-10">
         <h1>Metabolismo Basal</h1>
       </div>
     </div>
-
     <div class="row">
       <div class="col-xs-3">
         <label>Altura: </label>
@@ -34,7 +40,6 @@
         </div>
       </div>
     </div>
-
     <div class="row">
       <div class="col-xs-3">
         <label>Peso: </label>
@@ -70,10 +75,9 @@
         </label>
       </div>
     </div>
-    <br>
     <div class="row">
       <div class="col-xs-12">
-        <label>como você se considera: </label>
+        <label><span class="textolabel">como você se considera:</span></label>
       </div>
     </div>
     <div class="row consideracao">
@@ -107,7 +111,11 @@
         </div>
       </div>
     </div>
-  
+  </div>
+  <div id="sidebar" >      
+      <ons-list-item modifier="chevron tappable nodivider"  onclick="location.href='imc.html'" >
+        calculadora IMC
+      </ons-list-item>     
   </div>
 </body>
 </html>

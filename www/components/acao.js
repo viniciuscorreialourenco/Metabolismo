@@ -73,3 +73,6 @@ $(document).on("click","#calcular", function(){
     }
   }
 });
+function toggleSidebar(){
+  document.getElementById("sidebar").classList.toggle('active');
+}

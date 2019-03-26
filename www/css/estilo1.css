@@ -1,0 +1,78 @@
+/**/
+.linha{
+  margin-bottom: 20px;
+  font-size: 17px;
+}
+.linha button{
+  margin-left: 40%;
+  background-color: lightseagreen;
+  color: white;
+}
+body{
+  background-color: rgb(173, 245, 227);
+  height: 98.8%;
+}
+.linha1{
+   font-family: cursive;
+  color: white;
+  margin-bottom: 20px;
+  background-color: lightseagreen;
+  padding: 5px;
+}
+h1{
+  margin-top: 5px;
+  font-weight: bold;
+  margin-left: 20px;
+  font-size: 25px;
+}
+.media{
+  box-shadow: 0 0 0 0;
+  border: none;
+  outline: none;
+  color: black;
+  font-size: 25px;
+}
+#imagens{
+  width: 30%;
+  margin-left: 37.5%;
+  
+}
+label{
+  margin-top: 4px;
+}
+#area{
+   margin-left: 24%;
+   width: 205px;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.menu{
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+}
+#sidebar{
+  width: 200px;
+  height: 92%;
+  background: lightseagreen;
+  position: absolute;
+  top: 52px;
+  left: -200px;
+  transition: all 500ms linear;
+}
+#sidebar ul li{
+  color:white;
+  list-style: none;
+  padding: 15px 25px;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+}
+#sidebar.active{
+  left: 0px;
+}
+#sidebar ons-list-item{
+  color: white; 
+}
